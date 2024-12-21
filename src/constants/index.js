@@ -23,7 +23,9 @@ import {
   next,
   prisma,
   SelfTraining,
-  Freelancer
+  Freelancer,
+  mongodb,
+  expressJs,
 } from "../assets";
 
 export const navLinks = [
@@ -108,6 +110,14 @@ const technologies = [
   {
     name: "prisma",
     icon: prisma,
+  },
+  {
+    name: "Mongo DB",
+    icon: mongodb,
+  },
+  {
+    name: "Express.js",
+    icon: expressJs,
   },
 ];
 
@@ -322,3 +332,4 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
