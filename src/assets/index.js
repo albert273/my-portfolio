@@ -29,6 +29,7 @@ import dashboard from './dashboard.png'
 import onlineStore from './Online_Store.png'
 import next from './tech/next.png'
 import prisma from './tech/prisma.png'
+import expressJs from './tech/expressJs.png'
 
 
 
@@ -75,5 +76,7 @@ export {
   prisma,
   next,
   SelfTraining,
-  Freelancer
+  Freelancer,
+  expressJs
 };
+
